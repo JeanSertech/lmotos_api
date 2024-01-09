@@ -1,0 +1,633 @@
+﻿using ApiLMotos.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System;
+using Microsoft.AspNetCore.Authorization;
+using System.Threading.Tasks;
+using ApiLMotos.DbHandle;
+using Nancy.Json;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Microsoft.Extensions.DependencyModel;
+
+namespace ApiLMotos.Controllers
+{
+    [Authorize]
+    [Route("[controller]")]
+    [ApiController]
+    public class SoatController : ControllerBase
+    {
+        
+
+        [Route("GetSoatCliente")]
+        [HttpGet]
+        public Response DSoatCliente_Listar(Int64 iMCliente)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DSoatCliente_Listar(iMCliente);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetVehiculoPlacaBuscar")]
+        [HttpGet]
+        public Response DVehiculoPlaca_Buscar(string tPlaca, int iAnio)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DVehiculoPlaca_Buscar(tPlaca,iAnio);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetRequisitosPrevio")]
+        [HttpGet]
+        public Response DRequisitosPrevio_Listar(Int64 iMContrato)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DRequisitosPrevio_Listar(iMContrato);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+        [Route("GetCuotas")]
+        [HttpGet]
+        public Response DCuotas_Listar(Int64 iMContrato)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DCuotas_Listar(iMContrato);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("PostContratoValidacion")]
+        [HttpPost]
+        public Response DContratoValidacion_Registrar([FromForm] ContratoValidacion data)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DContratoValidacion_Registrar(data);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = list.code,
+                    message = list.message,
+                    data = list.code == 0 ? new { iMContrato = Ok(list.data).Value } : new { }
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Datos invalidos, vuelva  a intentarlo",
+                    data = new { }
+                };
+            }
+            return result;
+        }
+
+        [Route("PostContratoRequisito")]
+        [HttpPost]
+        public Response DContratoRequisitoRegistrar([FromForm] ContratoRequisito data)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DContratoRequisitoRegistrar(data);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = list.code,
+                    message = list.message,
+                    data = list.code == 0 ? new { iMContrato = Ok(list.data).Value } : new { }
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Datos invalidos, vuelva  a intentarlo",
+                    data = new { }
+                };
+            }
+            return result;
+        }
+        [Route("PostContratoCuota")]
+        [HttpPost]
+        public Response DContratoCuotaRegistrar([FromForm] ContratoCuota data)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DContratoCuotaRegistrar(data);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = list.code,
+                    message = list.message,
+                    data = list.code == 0 ? new { iMContrato = Ok(list.data).Value } : new { }
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Datos invalidos, vuelva  a intentarlo",
+                    data = new { }
+                };
+            }
+            return result;
+        }
+
+        [Route("PostContrato")]
+        [HttpPost]
+        public Response DContratoRegistrar([FromForm] Contrato data)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DContratoRegistrar(data);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = list.code,
+                    message = list.message,
+                    data = list.code == 0 ? new { iMContrato = Ok(list.data).Value } : new { }
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Datos invalidos, vuelva  a intentarlo",
+                    data = new { }
+                };
+            }
+            return result;
+        }
+
+        [Route("PostCotizacion")]
+        [HttpPost]
+        public Response DCotizacionRegistrar([FromForm] Cotizacion data)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DCotizacionRegistrar(data);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = list.code,
+                    message = list.message,
+                    data = list.code == 0 ? new { iMCotizacion = Ok(list.data).Value } : new { }
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Datos invalidos, vuelva  a intentarlo",
+                    data = new { }
+                };
+            }
+            return result;
+        }
+
+        [Route("PostUpdateContrato")]
+        [HttpPost]
+        public Response DContratActualizar([FromForm] Contrato data)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DContratoActualizar(data);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = list.code,
+                    message = list.message,
+                    data = list.code == 0 ? new { iMContrato = Ok(list.data).Value } : new { }
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Datos invalidos, vuelva  a intentarlo",
+                    data = new { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetPrecioSoat")]
+        [HttpGet]
+        public Response DPrecioSoat_Listar(String tOrigen, int iPago)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DPrecioSoat_Listar(tOrigen, iPago);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetDatosPersonsalesContrato")]
+        [HttpGet]
+        public Response DDatosPersonsalesContrato_Listar(Int64 iMContrato)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DDatosPersonsalesContrato_Listar(iMContrato);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetZona")]
+        [HttpGet]
+        public Response MZona_Listar()
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.MZona_Listar();
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetUso")]
+        [HttpGet]
+        public Response MUso_Listar()
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.MUso_Listar();
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetClase")]
+        [HttpGet]
+        public Response MClase_Listar()
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.MClase_Listar();
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetCategoria")]
+        [HttpGet]
+        public Response MCategoria_Listar()
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.MCategoria_Listar();
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+        [Route("GetMarca")]
+        [HttpGet]
+        public Response MMarca_Listar()
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.MMarca_Listar();
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+        [Route("GetModelo")]
+        [HttpGet]
+        public Response MModelo_Listar(Int64 iMMarca)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.MModelo_Listar(iMMarca);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+        [Route("GetVersion")]
+        [HttpGet]
+        public Response MVersion_Listar(Int64 iMModelo)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.MVersion_Listar(iMModelo);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetCotizacionCliente")]
+        [HttpGet]
+        public Response DCotizacionCliente_Listar(Int64 iMCliente)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DCotizacionCliente_Listar(iMCliente);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetDataCliente")]
+        [HttpGet]
+        public Response DDataCliente_Listar(Int64 iMCliente)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DDataCliente_Listar(iMCliente);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+
+        [Route("GetDataVehiculo")]
+        [HttpGet]
+        public Response DDataVehiculo_Listar(Int64 iMVehiculo, string tTipo)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DDataVehiculo_Listar(iMVehiculo, tTipo);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = 0,
+                    message = "Búsqueda exitosa",
+                    data = list
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Sin información disponible",
+                    data = new string[] { }
+                };
+            }
+            return result;
+        }
+    }
+}

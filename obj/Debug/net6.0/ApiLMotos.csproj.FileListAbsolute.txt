@@ -1,0 +1,470 @@
+D:\ApiLMotos\bin\Debug\net6.0\appsettings.Development.json
+D:\ApiLMotos\bin\Debug\net6.0\appsettings.json
+D:\ApiLMotos\bin\Debug\net6.0\Connected Services\WS_FAST\ConnectedService.json
+D:\ApiLMotos\bin\Debug\net6.0\ApiLMotos.exe
+D:\ApiLMotos\bin\Debug\net6.0\ApiLMotos.deps.json
+D:\ApiLMotos\bin\Debug\net6.0\ApiLMotos.runtimeconfig.json
+D:\ApiLMotos\bin\Debug\net6.0\ApiLMotos.dll
+D:\ApiLMotos\bin\Debug\net6.0\ApiLMotos.pdb
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Xml.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\ApiLMotos\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ApiLMotos\bin\Debug\net6.0\Nancy.dll
+D:\ApiLMotos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.Private.ServiceModel.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Duplex.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Federation.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Http.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Security.dll
+D:\ApiLMotos\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\ApiLMotos\bin\Debug\net6.0\cs\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\de\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\es\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\fr\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\it\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\ja\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\ko\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\pl\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\pt-BR\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\ru\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\tr\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.Private.ServiceModel.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\cs\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\de\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\es\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\fr\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\it\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\ja\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\ko\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\pl\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\ru\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\tr\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.AssemblyReference.cache
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.GeneratedMSBuildEditorConfig.editorconfig
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfoInputs.cache
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfo.cs
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CoreCompileInputs.cache
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cs
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cache
+D:\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.ApiLMotos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiLMotos.props
+D:\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiLMotos.props
+D:\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiLMotos.props
+D:\ApiLMotos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\ApiLMotos\obj\Debug\net6.0\staticwebassets.build.json
+D:\ApiLMotos\obj\Debug\net6.0\staticwebassets.development.json
+D:\ApiLMotos\obj\Debug\net6.0\scopedcss\bundle\ApiLMotos.styles.css
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CopyComplete
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.dll
+D:\ApiLMotos\obj\Debug\net6.0\refint\ApiLMotos.dll
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.pdb
+D:\ApiLMotos\obj\Debug\net6.0\ApiLMotos.genruntimeconfig.cache
+D:\ApiLMotos\obj\Debug\net6.0\ref\ApiLMotos.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\appsettings.Development.json
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\appsettings.json
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Connected Services\WS_FAST\ConnectedService.json
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.exe
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.deps.json
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.runtimeconfig.json
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.pdb
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Xml.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Nancy.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.Private.ServiceModel.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Duplex.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Federation.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Http.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Security.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\cs\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\de\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\es\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\fr\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\it\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ja\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ko\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\pl\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\pt-BR\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ru\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\tr\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.Private.ServiceModel.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\cs\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\de\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\es\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\fr\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\it\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ja\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ko\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\pl\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\ru\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\tr\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.AssemblyReference.cache
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfoInputs.cache
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfo.cs
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CoreCompileInputs.cache
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cs
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cache
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.ApiLMotos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiLMotos.props
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiLMotos.props
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiLMotos.props
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets.build.json
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets.development.json
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\scopedcss\bundle\ApiLMotos.styles.css
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CopyComplete
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.dll
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\refint\ApiLMotos.dll
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.pdb
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.genruntimeconfig.cache
+D:\_Projects\ApiLMotos\obj\Debug\net6.0\ref\ApiLMotos.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\appsettings.Development.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\appsettings.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Connected Services\WS_FAST\ConnectedService.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.exe
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.deps.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.runtimeconfig.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ApiLMotos.pdb
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Xml.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Nancy.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.Private.ServiceModel.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Duplex.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Federation.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Http.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Security.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\cs\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\de\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\es\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\fr\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\it\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ja\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ko\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\pl\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\pt-BR\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ru\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\tr\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.Private.ServiceModel.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\cs\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\de\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\es\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\fr\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\it\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ja\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ko\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\pl\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\ru\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\tr\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.AssemblyReference.cache
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfoInputs.cache
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfo.cs
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CoreCompileInputs.cache
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cs
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cache
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.ApiLMotos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiLMotos.props
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiLMotos.props
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiLMotos.props
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets.build.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\staticwebassets.development.json
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\scopedcss\bundle\ApiLMotos.styles.css
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CopyComplete
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\refint\ApiLMotos.dll
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.pdb
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ApiLMotos.genruntimeconfig.cache
+D:\OneDrive - Sertech Perú\_Projects\ApiLMotos\obj\Debug\net6.0\ref\ApiLMotos.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\appsettings.Development.json
+D:\repos\ApiLMotos\bin\Debug\net6.0\appsettings.json
+D:\repos\ApiLMotos\bin\Debug\net6.0\Connected Services\WS_FAST\ConnectedService.json
+D:\repos\ApiLMotos\bin\Debug\net6.0\ApiLMotos.exe
+D:\repos\ApiLMotos\bin\Debug\net6.0\ApiLMotos.deps.json
+D:\repos\ApiLMotos\bin\Debug\net6.0\ApiLMotos.runtimeconfig.json
+D:\repos\ApiLMotos\bin\Debug\net6.0\ApiLMotos.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\ApiLMotos.pdb
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Xml.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Nancy.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.Private.ServiceModel.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Duplex.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Federation.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Http.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Security.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\cs\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\de\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\es\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\fr\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\it\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\ja\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\ko\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\pl\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\pt-BR\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\ru\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\tr\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.Private.ServiceModel.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\cs\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\de\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\es\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\fr\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\it\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\ja\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\ko\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\pl\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\ru\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\tr\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\repos\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.AssemblyReference.cache
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfoInputs.cache
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfo.cs
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CoreCompileInputs.cache
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cs
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\ApiLMotos\obj\Debug\net6.0\staticwebassets.build.json
+D:\repos\ApiLMotos\obj\Debug\net6.0\staticwebassets.development.json
+D:\repos\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.ApiLMotos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\repos\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiLMotos.props
+D:\repos\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiLMotos.props
+D:\repos\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiLMotos.props
+D:\repos\ApiLMotos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\repos\ApiLMotos\obj\Debug\net6.0\scopedcss\bundle\ApiLMotos.styles.css
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CopyComplete
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.dll
+D:\repos\ApiLMotos\obj\Debug\net6.0\refint\ApiLMotos.dll
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.pdb
+D:\repos\ApiLMotos\obj\Debug\net6.0\ApiLMotos.genruntimeconfig.cache
+D:\repos\ApiLMotos\obj\Debug\net6.0\ref\ApiLMotos.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\appsettings.Development.json
+D:\netProject\ApiLMotos\bin\Debug\net6.0\appsettings.json
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Connected Services\WS_FAST\ConnectedService.json
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ApiLMotos.exe
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ApiLMotos.deps.json
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ApiLMotos.runtimeconfig.json
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ApiLMotos.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ApiLMotos.pdb
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.WsTrust.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.IdentityModel.Xml.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Nancy.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.Private.ServiceModel.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Duplex.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Federation.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Http.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\System.ServiceModel.Security.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\cs\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\de\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\es\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\fr\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\it\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ja\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ko\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\pl\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\pt-BR\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ru\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\tr\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.Private.ServiceModel.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\cs\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\de\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\es\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\fr\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\it\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ja\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ko\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\pl\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\pt-BR\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\ru\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\tr\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\zh-Hans\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\zh-Hant\System.ServiceModel.Federation.resources.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\netProject\ApiLMotos\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.AssemblyReference.cache
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.GeneratedMSBuildEditorConfig.editorconfig
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfoInputs.cache
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.AssemblyInfo.cs
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CoreCompileInputs.cache
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cs
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.MvcApplicationPartsAssemblyInfo.cache
+D:\netProject\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.ApiLMotos.Microsoft.AspNetCore.StaticWebAssets.props
+D:\netProject\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiLMotos.props
+D:\netProject\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiLMotos.props
+D:\netProject\ApiLMotos\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiLMotos.props
+D:\netProject\ApiLMotos\obj\Debug\net6.0\staticwebassets.pack.json
+D:\netProject\ApiLMotos\obj\Debug\net6.0\staticwebassets.build.json
+D:\netProject\ApiLMotos\obj\Debug\net6.0\staticwebassets.development.json
+D:\netProject\ApiLMotos\obj\Debug\net6.0\scopedcss\bundle\ApiLMotos.styles.css
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.csproj.CopyComplete
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.dll
+D:\netProject\ApiLMotos\obj\Debug\net6.0\refint\ApiLMotos.dll
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.pdb
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ApiLMotos.genruntimeconfig.cache
+D:\netProject\ApiLMotos\obj\Debug\net6.0\ref\ApiLMotos.dll
