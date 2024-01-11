@@ -70,7 +70,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DSoat_Listar", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DSoat_Listar_v1", connection);
                 command.Parameters.Add("@iMCliente", SqlDbType.BigInt).Value = iMCliente;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
@@ -318,7 +318,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DCotizacion_Registrar", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DCotizacion_Registrar_v1", connection);
                 command.Parameters.Add("@tPlaca", SqlDbType.VarChar).Value = data.tPlaca;
                 command.Parameters.Add("@iMClase", SqlDbType.BigInt).Value = data.iMClase;
                 command.Parameters.Add("@iMUso", SqlDbType.BigInt).Value = data.iMUso;
@@ -561,7 +561,6 @@ namespace ApiLMotos.DbHandle
             }
             return listEntidad;
         }
-
         public List<Modelo> MModelo_Listar(Int64 iMMarca)
         {
             List<Modelo> listEntidad = null;
@@ -616,7 +615,6 @@ namespace ApiLMotos.DbHandle
             }
             return listEntidad;
         }
-
         public List<CotizacionCliente> DCotizacionCliente_Listar(Int64 iMCliente)
         {
             List<CotizacionCliente> listEntidad = null;
@@ -653,7 +651,6 @@ namespace ApiLMotos.DbHandle
             }
             return listEntidad;
         }
-
         public List<DataCliente> DDataCliente_Listar(Int64 iMCliente, string tTipo, Int64 iD)
         {
             List<DataCliente> listEntidad = null;
