@@ -140,7 +140,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DRequisitosPrevio_Listar", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DRequisitosPrevio_Listar_v1", connection);
                 command.Parameters.Add("@iMContrato", SqlDbType.BigInt).Value = iMContrato;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
@@ -236,7 +236,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("f", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DContratoRequisito_Registrar", connection);
                 command.Parameters.Add("@iMContrato", SqlDbType.BigInt).Value = data.iMContrato;
                 command.Parameters.Add("@tTipo", SqlDbType.VarChar).Value = data.tTipo;
                 command.Parameters.Add("@tAdjunto", SqlDbType.VarChar).Value = data.tAdjunto;
@@ -318,7 +318,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DCotizacion_Registrar_v1", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DCotizacion_Registrar_v2", connection);
                 command.Parameters.Add("@tPlaca", SqlDbType.VarChar).Value = data.tPlaca;
                 command.Parameters.Add("@iMClase", SqlDbType.BigInt).Value = data.iMClase;
                 command.Parameters.Add("@iMUso", SqlDbType.BigInt).Value = data.iMUso;
@@ -345,6 +345,8 @@ namespace ApiLMotos.DbHandle
                 command.Parameters.Add("@tRucRazon", SqlDbType.VarChar).Value = data.tRucRazon;
                 command.Parameters.Add("@tRucDireccion", SqlDbType.VarChar).Value = data.tRucDireccion;
                 command.Parameters.Add("@tTipoCotizacion", SqlDbType.VarChar).Value = data.tTipoCotizacion;
+                command.Parameters.Add("@tCiudad", SqlDbType.VarChar).Value = data.tCiudad;
+                command.CommandType = CommandType.StoredProcedure;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
                 if (reader.HasRows)
@@ -945,6 +947,8 @@ namespace ApiLMotos.DbHandle
                 command.Parameters.Add("@tTarifaTotal", SqlDbType.Decimal).Value = cotizacion.tarifaTotal;
                 command.Parameters.Add("@tTarifaSemanal", SqlDbType.Decimal).Value = cotizacion.tarifaSemanal;
                 command.Parameters.Add("@tInteres", SqlDbType.Decimal).Value = cotizacion.interes;
+                command.Parameters.Add("@tCode", SqlDbType.Int).Value = cotizacion.code;
+                command.Parameters.Add("@tMessage", SqlDbType.Char).Value = cotizacion.message;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
                 if (reader.HasRows)
@@ -956,6 +960,8 @@ namespace ApiLMotos.DbHandle
                         entidad.tarifaSemanal = reader.GetDecimal(3);
                         entidad.tarifaTotal = reader.GetDecimal(4);
                         entidad.interes = reader.GetDecimal(5);
+                        entidad.code = reader.GetInt64(6);
+                        entidad.message = reader.GetString(7);
                     }
                 }
                 reader.Close();

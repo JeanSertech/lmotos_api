@@ -913,7 +913,7 @@ namespace ApiLMotos.Controllers
                 {
                     code = 1,
                     message = "Registro exitoso.",
-                    data = new { IDOportunidad = entidad.IDOportunidad, tarifaTotal = entidad.tarifaTotal, tarifaSemanal = entidad.tarifaSemanal, interes = entidad.interes}
+                    data = new { IDOportunidad = entidad.IDOportunidad, tarifaTotal = entidad.tarifaTotal, tarifaSemanal = entidad.tarifaSemanal, interes = entidad.interes, code = entidad.code, message =  entidad.message }
                 };
             }
             return result;

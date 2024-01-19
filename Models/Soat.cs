@@ -188,6 +188,7 @@ namespace ApiLMotos.Models
         public string? tRuc { get; set; }
         public string? tRucRazon { get; set; }
         public string? tRucDireccion { get; set; }
+        public string? tCiudad { get; set; }
     }
 
 
@@ -279,5 +280,9 @@ namespace ApiLMotos.Models
         public decimal tarifaSemanal { get; set; }
         public decimal tarifaTotal { get; set; }
         public decimal interes { get; set; }
+        public Int64 code { get; set; }
+
+        public string message { get; set; }
+
     }
 }

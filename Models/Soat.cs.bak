@@ -49,6 +49,8 @@ namespace ApiLMotos.Models
         public Int64? iMVehiculo { get; set; }
         public decimal? iPrecioSoat { get; set; }
         public int? iTipoPago { get; set; }
+        public string? tPagoCuotas { get; set; }
+        public string? tVencimiento { get; set; }
     }
     public class CotizacionCliente
     {
@@ -71,6 +73,7 @@ namespace ApiLMotos.Models
         public int? lEstado { get; set; }
         public string? tEstado { get; set; }
         public string? tEVidencia { get; set; }
+        public string? tMotivo { get; set; }
     }
     public class SoatCuotas
     {
@@ -181,6 +184,11 @@ namespace ApiLMotos.Models
         public int? iDistrito { get; set; }
         public string? tUbigeo { get; set; }
         public int? iComprobante { get; set; }
+        public string? tTipoCotizacion { get; set; }
+        public string? tRuc { get; set; }
+        public string? tRucRazon { get; set; }
+        public string? tRucDireccion { get; set; }
+        public string? tCiudad { get; set; }
     }
 
 
@@ -206,6 +214,9 @@ namespace ApiLMotos.Models
         public string? tDepartamento { get; set; }
         public string? tProvincia { get; set; }
         public string? tDistrito { get; set; }
+        public string? tRuc { get; set; }
+        public string? tRucRazon { get; set; }
+        public string? tRucDireccion { get; set; }
     }
 
     public class DataVehiculo
@@ -222,7 +233,52 @@ namespace ApiLMotos.Models
         public string? tAnio { get; set; }
         public string? tZona { get; set; }
     }
+    public class returnId
+    {
+        public Int64? iMMarca { get; set; }
+        public Int64? iMModelo { get; set; }
+        public Int64? iMClase { get; set; }
+        public Int64? iMUso { get; set; }
+    }
     public class Soat
     {
+        public string? tSoatbase64 { get; set; }
+    }
+
+    public class Asesor
+    {
+        public string? tNombre { get; set; }
+        public string? tTelefono { get; set; }
+        public string? tCorreo { get; set; }
+        public string? tMensaje { get; set; }
+    }
+
+    public class PagoExterno
+    {
+        public string? Telefono { get; set; }
+        public decimal? Monto { get; set; }
+        public string? Fecha { get; set; }
+        public string? Hora { get; set; }
+    }
+
+    public class CuentaPago
+    {
+        public Int64? idCuenta { get; set; }
+        public string? tOrigen { get; set; }
+        public string? tCuenta { get; set; }
+        public string? tLogo { get; set; }
+    }
+    public class SoatPdf
+    {
+        public Int64 IDOportunidad { get; set; }
+        public string tRutaPdf { get; set;}
+    }
+
+    public class SoatCotizacion
+    {
+        public Int64 IDOportunidad { get; set; }
+        public decimal tarifaSemanal { get; set; }
+        public decimal tarifaTotal { get; set; }
+        public decimal interes { get; set; }
     }
 }
