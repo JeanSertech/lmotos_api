@@ -51,6 +51,8 @@ namespace ApiLMotos.Models
         public int? iTipoPago { get; set; }
         public string? tPagoCuotas { get; set; }
         public string? tVencimiento { get; set; }
+        public Int64? iMCotizacion { get; set; }
+
     }
     public class CotizacionCliente
     {
@@ -65,6 +67,8 @@ namespace ApiLMotos.Models
         public string? tFechaMod { get; set; }
         public string? tMotivoRechazo { get; set; }
         public string? tUsuarioMod { get; set; }
+        public decimal? iPrecioTarifa { get; set; }
+        public string? tMessage { get; set; }
     }
     public class SoatRequisitos
     {
@@ -129,7 +133,11 @@ namespace ApiLMotos.Models
         public int? iCuota { get; set; }
         public string? tEvidencia { get; set; }
     }
-
+    public class ContratoCuotaNew
+    {
+        public Int64? iMContrato { get; set; }
+        public int? iCuota { get; set; }
+    }
     public class Contrato
     {
         public Int64? iMCotizacion { get; set; }
@@ -189,8 +197,8 @@ namespace ApiLMotos.Models
         public string? tRucRazon { get; set; }
         public string? tRucDireccion { get; set; }
         public string? tCiudad { get; set; }
+        public string? tipoCotizacion { get; set; }
     }
-
 
     public class Vehiculo
     {

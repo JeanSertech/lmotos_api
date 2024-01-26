@@ -18,7 +18,6 @@ namespace ApiLMotos.Controllers
     [ApiController]
     public class SoatController : ControllerBase
     {
-        
 
         [Route("GetSoatCliente")]
         [HttpGet]
@@ -78,11 +77,11 @@ namespace ApiLMotos.Controllers
 
         [Route("GetRequisitosPrevio")]
         [HttpGet]
-        public Response DRequisitosPrevio_Listar(Int64 iMContrato)
+        public Response DRequisitosPrevio_Listar(Int64 iMContrato, Boolean isLMotos)
         {
             Response result = null;
             SoatDb db = new SoatDb();
-            var list = db.DRequisitosPrevio_Listar(iMContrato);
+            var list = db.DRequisitosPrevio_Listar(iMContrato, isLMotos);
             if (list != null)
             {
                 result = new Response()
@@ -103,6 +102,7 @@ namespace ApiLMotos.Controllers
             }
             return result;
         }
+        
         [Route("GetCuotas")]
         [HttpGet]
         public Response DCuotas_Listar(Int64 iMContrato)
@@ -186,6 +186,7 @@ namespace ApiLMotos.Controllers
             }
             return result;
         }
+        
         [Route("PostContratoCuota")]
         [HttpPost]
         public Response DContratoCuotaRegistrar([FromForm] ContratoCuota data)
@@ -193,6 +194,34 @@ namespace ApiLMotos.Controllers
             Response result = null;
             SoatDb db = new SoatDb();
             var list = db.DContratoCuotaRegistrar(data);
+            if (list != null)
+            {
+                result = new Response()
+                {
+                    code = list.code,
+                    message = list.message,
+                    data = list.code == 0 ? new { iMContrato = Ok(list.data).Value } : new { }
+                };
+            }
+            else
+            {
+                result = new Response()
+                {
+                    code = 2,
+                    message = "Datos invalidos, vuelva  a intentarlo",
+                    data = new { }
+                };
+            }
+            return result;
+        }
+
+        [Route("PostContratoCuotaNew")]
+        [HttpPost]
+        public Response DContratoCuotaRegistrarNew([FromForm] ContratoCuotaNew data)
+        {
+            Response result = null;
+            SoatDb db = new SoatDb();
+            var list = db.DContratoCuotaRegistrarNew(data);
             if (list != null)
             {
                 result = new Response()
@@ -768,6 +797,7 @@ namespace ApiLMotos.Controllers
             }
             return result;
         }
+        
         [Route("GetCuentaPago")]
         [HttpGet]
         public Response GetCuentaPago_Listar()
@@ -828,12 +858,9 @@ namespace ApiLMotos.Controllers
                 return result;
             }
 
-
-
             DateTime fechaActual = DateTime.Now;
             string rutaRaiz = "Archivos";
-            string carpetaAnio = Path.Combine(rutaRaiz,
-                fechaActual.Year.ToString());
+            string carpetaAnio = Path.Combine(rutaRaiz,fechaActual.Year.ToString());
             Directory.CreateDirectory(carpetaAnio);
 
             string carpetaMes = Path.Combine(carpetaAnio, fechaActual.ToString("MM"));
@@ -842,11 +869,10 @@ namespace ApiLMotos.Controllers
             string nombreAleatorio = GenerarNombreAleatorio(40);
             string rutaArchivoPDF = Path.Combine(carpetaMes, nombreAleatorio + ".pdf");
 
-            
             System.IO.File.WriteAllBytes(rutaArchivoPDF, bytesPDF);
 
             SoatDb db = new SoatDb();
-            SoatPdf entidad = db.RegistrarPDFSoat(IDOportunidad, rutaArchivoPDF);
+            SoatPdf entidad = db.RegistrarPDFSoat(IDOportunidad, rutaArchivoPDF, bytesPDF);
 
             if(entidad.IDOportunidad == 0)
             {
@@ -913,7 +939,14 @@ namespace ApiLMotos.Controllers
                 {
                     code = 1,
                     message = "Registro exitoso.",
-                    data = new { IDOportunidad = entidad.IDOportunidad, tarifaTotal = entidad.tarifaTotal, tarifaSemanal = entidad.tarifaSemanal, interes = entidad.interes, code = entidad.code, message =  entidad.message }
+                    data = new { 
+                        IDOportunidad = entidad.IDOportunidad, 
+                        tarifaTotal = entidad.tarifaTotal, 
+                        tarifaSemanal = entidad.tarifaSemanal, 
+                        interes = entidad.interes, 
+                        code = entidad.code, 
+                        message =  entidad.message
+                    }
                 };
             }
             return result;

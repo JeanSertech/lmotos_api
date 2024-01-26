@@ -70,7 +70,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DSoat_Listar_v1", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DSoat_Listar_v2", connection);
                 command.Parameters.Add("@iMCliente", SqlDbType.BigInt).Value = iMCliente;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
@@ -91,6 +91,7 @@ namespace ApiLMotos.DbHandle
                         entidad.iTipoPago = reader.GetInt32(7);
                         entidad.tPagoCuotas = reader.GetString(8);
                         entidad.tVencimiento = reader.GetString(9);
+                        entidad.iMCotizacion = reader.GetInt64(10);
                         listEntidad.Add(entidad);
                     }
                 }
@@ -134,14 +135,16 @@ namespace ApiLMotos.DbHandle
             }
             return listEntidad;
         }
-        public List<SoatRequisitos> DRequisitosPrevio_Listar(Int64 iMContrato)
+        public List<SoatRequisitos> DRequisitosPrevio_Listar(Int64 iMContrato, Boolean isLMotos)
         {
             List<SoatRequisitos> listEntidad = null;
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DRequisitosPrevio_Listar_v1", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DRequisitosPrevio_Listar_v3", connection);
                 command.Parameters.Add("@iMContrato", SqlDbType.BigInt).Value = iMContrato;
+                command.Parameters.Add("@isLMotos", SqlDbType.BigInt).Value = isLMotos;
+
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
                 if (reader.HasRows)
@@ -236,7 +239,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DContratoRequisito_Registrar", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DContratoRequisito_Registrar_v1", connection);
                 command.Parameters.Add("@iMContrato", SqlDbType.BigInt).Value = data.iMContrato;
                 command.Parameters.Add("@tTipo", SqlDbType.VarChar).Value = data.tTipo;
                 command.Parameters.Add("@tAdjunto", SqlDbType.VarChar).Value = data.tAdjunto;
@@ -284,13 +287,45 @@ namespace ApiLMotos.DbHandle
             }
             return listEntidad;
         }
+
+
+        public Response DContratoCuotaRegistrarNew( ContratoCuotaNew data )
+        {
+            Response listEntidad = null;
+            using (SqlConnection connection = new SqlConnection(Cadena))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("p_api_lm_DContratoCuota_Registrar_v1", connection);
+                command.Parameters.Add("@iMContrato", SqlDbType.BigInt).Value = data.iMContrato;
+                command.Parameters.Add("@iCuota", SqlDbType.Int).Value = data.iCuota;
+                command.CommandType = CommandType.StoredProcedure;
+                SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        listEntidad = new Response();
+                        listEntidad.code = reader.GetInt32(0);
+                        listEntidad.message = reader.GetString(1);
+                        listEntidad.data = reader.GetInt64(2);
+                    }
+                }
+                reader.Close();
+                connection.Close();
+            }
+            return listEntidad;
+        }
+
+
+
+
         public Response DContratoRegistrar(Contrato data)
         {
             Response listEntidad = null;
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DContrato_Registrar", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DContrato_Registrar_v1", connection);
                 command.Parameters.Add("@tEmpresaRuc", SqlDbType.VarChar).Value = data.tEmpresaRuc;
                 command.Parameters.Add("@iMCotizacion", SqlDbType.BigInt).Value = data.iMCotizacion;
                 command.Parameters.Add("@iMTipoPago", SqlDbType.Int).Value = data.iMTipoPago;
@@ -346,7 +381,6 @@ namespace ApiLMotos.DbHandle
                 command.Parameters.Add("@tRucDireccion", SqlDbType.VarChar).Value = data.tRucDireccion;
                 command.Parameters.Add("@tTipoCotizacion", SqlDbType.VarChar).Value = data.tTipoCotizacion;
                 command.Parameters.Add("@tCiudad", SqlDbType.VarChar).Value = data.tCiudad;
-                command.CommandType = CommandType.StoredProcedure;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
                 if (reader.HasRows)
@@ -623,7 +657,7 @@ namespace ApiLMotos.DbHandle
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_DCotizacion_Listar", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_DCotizacion_Listar_v2", connection);
                 command.Parameters.Add("@iMCliente", SqlDbType.BigInt).Value = iMCliente;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
@@ -645,6 +679,8 @@ namespace ApiLMotos.DbHandle
                         entidad.tFechaMod = reader.GetString(8);
                         entidad.tMotivoRechazo = reader.GetString(9);
                         entidad.tUsuarioMod = reader.GetString(10);
+                        entidad.iPrecioTarifa = reader.GetDecimal(11);
+                        entidad.tMessage = reader.GetString(12);
                         listEntidad.Add(entidad);
                     }
                 }
@@ -909,15 +945,16 @@ namespace ApiLMotos.DbHandle
             return listEntidad;
         }
 
-        public SoatPdf RegistrarPDFSoat(Int64? IDOperacion, string tRutaPdf)
+        public SoatPdf RegistrarPDFSoat(Int64? IDOperacion, string tRutaPdf, byte[] bytesPDF)
         {
             SoatPdf entidad = null;
             using (SqlConnection connection = new SqlConnection(Cadena))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("p_api_lm_PdfSoat_Registrar", connection);
+                SqlCommand command = new SqlCommand("p_api_lm_PdfSoat_Registrar_v1", connection);
                 command.Parameters.Add("@IDOperacion", SqlDbType.BigInt).Value = IDOperacion;
                 command.Parameters.Add("@tRutaPdf", SqlDbType.NChar).Value = tRutaPdf;
+                command.Parameters.Add("@tPdfBytes", SqlDbType.NChar).Value = bytesPDF;
                 command.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = command.ExecuteReader(CommandBehavior.SingleResult);
                 if (reader.HasRows)
